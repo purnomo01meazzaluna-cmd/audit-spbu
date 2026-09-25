@@ -51,8 +51,8 @@ CHECKLIST_DATA = {
         "Sub-Elemen 2.1: Peralatan (7)": {
             "2.1 Peralatan": [
                 ("2.1.a", "Dispenser Unit disegel dan disertifikasi oleh Dinas Metrologi (masa kalibrasi berlaku, segel pada dispenser unit dan sertifikat tersedia)", "A/F", 2.50),
-                ("2.1.b", "SPBU memperbaharui secara berkala catatan Totalizer Dispenser Unit BBM  yang terdapat di P-Insyst (Jika SPBU belum terdigitalisasi maka diperbolehkan menggunakan catatan manual)", "A/F", 2.50),
-                ("2.1.c", "Seluruh peralatan Q&Q tersedia dan dalam kondisi baik:  Alas/tatakan Bejana Ukur, Waterpas, Tongkat Pengukur (Dip Stick),  Bejana Ukur volume 20 liter, Pasta Minyak, Pasta Air, Gelas Ukur/Tabung kaca (1,000 ml),  Hidrometer (berukuran 0.700-0.750 atau 0.750-0.800 atau 0.700-0.800 untuk BBM Bensin dan/atau 0.800-0.850 atau 0.850-0.900 atau 0.800-0.900 untuk BBM Solar dengan akurasi 0.001), Thermometer (dengan skala terkecil  ≤ 0,5 ºC, dan Tabel ASTM 53 dengan interval suhu 0.5 ºC) ", "A/F", 2.00)
+                ("2.1.b", "SPBU memperbaharui secara berkala catatan Totalizer Dispenser Unit BBM yang terdapat di P-Insyst (Jika SPBU belum terdigitalisasi maka diperbolehkan menggunakan catatan manual)", "A/F", 2.50),
+                ("2.1.c", "Seluruh peralatan Q&Q tersedia dan dalam kondisi baik: Alas/tatakan Bejana Ukur, Waterpas, Tongkat Pengukur (Dip Stick), Bejana Ukur volume 20 liter, Pasta Minyak, Pasta Air, Gelas Ukur/Tabung kaca (1,000 ml), Hidrometer (berukuran 0.700-0.750 atau 0.750-0.800 atau 0.700-0.800 untuk BBM Bensin dan/atau 0.800-0.850 atau 0.850-0.900 atau 0.800-0.900 untuk BBM Solar dengan akurasi 0.001), Thermometer (dengan skala terkecil ≤ 0,5 ºC, dan Tabel ASTM 53 dengan interval suhu 0.5 ºC)", "A/F", 2.00)
             ]
         },
         "Sub-Elemen 2.2 Prosedur Monitoring (23)": {
@@ -69,7 +69,7 @@ CHECKLIST_DATA = {
                 ("2.2.j", "Berat Jenis (densitas) Bio Solar/Solar diukur dengan benar", "A/F/X", 1.00),
                 ("2.2.k", "Berat Jenis (densitas) Pertamina Dex diukur dengan benar", "A/F/X", 1.00),
                 ("2.2.l", "Berat Jenis (densitas) Dexlite diukur dengan benar", "A/F/X", 1.00),
-                ("2.2.m", "Volume BBM yang dikeluarkan dari nozzle akurat", "A/B/C/F", 9.90, "UJI PETIK"),
+                ("2.2.m", "Volume BBM yang dikeluarkan dari nozzle akurat", "A/B/C/F", 9.50, "UJI PETIK"),
                 ("2.2.n", "Catatan stok harian disimpan dan selalu di-update", "A/C/F", 1.00),
                 ("2.2.o", "Catatan kualitas harian dan Pemeriksaan Visual tersedia", "A/C/F", 1.00),
                 ("2.2.p", "Tanda terima (Surat Pengantar Pengiriman/LO) diarsipkan", "A/F", 1.00),
@@ -219,7 +219,6 @@ def check_is_valid_option(opt, valid_options):
     if valid_options == "A-F":
         return opt in ["A", "B", "C", "D", "E", "F"]
     else:
-        # Contoh: "A/F" -> ["A", "F"]
         valid_list = [v.strip() for v in valid_options.split("/")]
         return opt in valid_list
 
@@ -271,7 +270,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
 
 if has_critical_failure:
     alert_list_str = ", ".join(failed_alert_names)
-    st.error(f"🚨 **STATUS AUDIT: GAGAL (NOT CERTIFIED)** — NOT CERTIFIED  pada item ber-Alert: **[{alert_list_str}]**! Pelanggaran ini menggagalkan seluruh elemen penilaian audit.")
+    st.error(f"🚨 **STATUS AUDIT: GAGAL (NOT CERTIFIED)** — NOT CERTIFIED pada item ber-Alert: **[{alert_list_str}]**! Pelanggaran ini menggagalkan seluruh elemen penilaian audit.")
 else:
     st.success("✅ **STATUS AUDIT: CERTIFIED** (CERTIFIED).")
 
@@ -289,7 +288,6 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                         
                         selected_opt = st.session_state.answers.get(code, None)
                         
-                        # Hitung skor: Jika opsi valid, multiplier * weight. Jika tidak valid, skor = 0
                         is_valid = check_is_valid_option(selected_opt, valid_options) if selected_opt else False
                         multiplier = WEIGHT_MAP.get(selected_opt, 0.00) if (selected_opt and is_valid) else 0.00
                         final_score = multiplier * weight
@@ -318,7 +316,6 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                             is_selected = selected_opt == opt
                             is_opt_valid = check_is_valid_option(opt, valid_options)
                             
-                            # Tampilkan merah jika dipilih tapi tidak valid
                             if is_selected and not is_opt_valid:
                                 button_label = f"🔴 {opt} (Invalid)"
                             elif is_selected:
@@ -366,7 +363,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                         st.markdown(f"<span style='color:red;'>⚠️ Pilihan **[{selected_opt}]** tidak valid untuk item ini (Validasi: {valid_options}). Score diset 0!</span>", unsafe_allow_html=True)
 
                     if alert_label and selected_opt == "F" and is_valid:
-                        st.markdown(f"<span style='color:red;'>🚨 ALERT NOT CIRTIFIED [{alert_label}] bernilai F (Menggagalkan Kelulusan)!</span>", unsafe_allow_html=True)
+                        st.markdown(f"<span style='color:red;'>🚨 ALERT NOT CERTIFIED [{alert_label}] bernilai F (Menggagalkan Kelulusan)!</span>", unsafe_allow_html=True)
 
                     cols = st.columns(7)
                     for idx, opt in enumerate(all_choices):
@@ -385,7 +382,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                             if st.button(button_label, key=current_key):
                                 st.session_state.answers[code] = opt
                                 st.rerun()
-                
+                    
                     st.session_state.notes[code] = st.text_input(f"Catatan untuk {code}", value=st.session_state.notes.get(code, ""), key=f"note_{code}")
                     
                     uploaded_file = st.file_uploader(f"📷/🎥 Unggah Foto/Video Bukti ({code})", type=["png", "jpg", "jpeg", "mp4", "mov"], key=f"media_{code}")
@@ -415,7 +412,7 @@ def generate_full_excel():
     ws['A1'] = "LAPORAN SIMULASI AUDIT PERTAMINA WAY"
     ws['A1'].font = title_font
     
-    overall_status = f"GAGAL (NOT CIRTIFIED) - Temuan Alert: {', '.join(failed_alert_names)}" if has_critical_failure else "LULUS / NORMAL"
+    overall_status = f"GAGAL (NOT CERTIFIED) - Temuan Alert: {', '.join(failed_alert_names)}" if has_critical_failure else "LULUS / NORMAL"
 
     metadata = [
         ("Nomor SPBU", nomor_spbu),
