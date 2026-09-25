@@ -17,7 +17,7 @@ WEIGHT_MAP = {
     "X": 1.00
 }
 
-# Fungsi parsing item fleksibel agar nilai float (Bobot) dan str (Alert) tidak saling menimpa
+# --- FUNGSI PARSE ITEM DENGAN PARSING PRESISI (SOLUSI BUG BOBOT) ---
 def parse_item(item):
     code = item[0]
     question = item[1]
@@ -26,6 +26,7 @@ def parse_item(item):
     weight = 1.00
     alert_label = ""
     
+    # Memisahkan secara presisi antara Tipe Data Angka (Bobot) dan String (Alert)
     for elem in item[3:]:
         if isinstance(elem, (int, float)):
             weight = float(elem)
