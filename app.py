@@ -82,7 +82,7 @@ CHECKLIST_DATA = {
         },
         "Sub-Elemen 2.2 Prosedur Monitoring (23)": {
             "2.2 Monitoring": [
-                ("2.2.a", "Tidak ditemukan tanda-tanda manipulasi pada dispenser", "A/F", 1.50, "DU DISPENSER"),
+                ("2.2.a", "Tidak ditemukan tanda-tanda manipulasi pada dispenser unit : segel-segel Dispenser, flow meter, dan digital LED yang dapat mempengaruhi ketidakwajaran takaran", "A/F", 1.50, "DU DISPENSER"),
                 ("2.2.b", "Sampel 2 (dua) pengiriman terakhir dari tiap produk", "A/F", 0.70),
                 ("2.2.c", "Kaleng Sampel disegel dan Label Sampel terisi lengkap", "A/F", 0.60),
                 ("2.2.d", "Tersedia Display sampel BBM yang sesuai dan bersih", "A/F", 0.25),
