@@ -17,7 +17,31 @@ WEIGHT_MAP = {
     "X": 1.00
 }
 
-# Kamus Data Master Checklist Beserta Bobot & Alert Spesifik
+# Fungsi parsing item fleksibel agar nilai float (Bobot) dan str (Alert) tidak saling menimpa
+def parse_item(item):
+    code = item[0]
+    question = item[1]
+    valid_options = item[2]
+    
+    weight = 1.00
+    alert_label = ""
+    
+    for elem in item[3:]:
+        if isinstance(elem, (int, float)):
+            weight = float(elem)
+        elif isinstance(elem, str):
+            alert_label = elem
+            
+    return code, question, valid_options, weight, alert_label
+
+def check_is_valid_option(opt, valid_options):
+    if valid_options == "A-F":
+        return opt in ["A", "B", "C", "D", "E", "F"]
+    else:
+        valid_list = [v.strip() for v in valid_options.split("/")]
+        return opt in valid_list
+
+# Kamus Data Master Checklist
 CHECKLIST_DATA = {
     "Elemen 1: Skilled Staff & Services (30)": {
         "Sub-Elemen 1.1. Kebersihan dan Penampilan (10)": {
@@ -185,7 +209,7 @@ CHECKLIST_DATA = {
                 ("5.1.e", "Tersedianya produk Dexlite", "A/F", 0.20),
                 ("5.1.f", "Tersedianya produk JBU minimum 1 jenis yaitu Solar ke", "A/C/F", 0.21, "JBU"),
                 ("5.1.g", "Realisasi penebusan JBU per-2 (dua) bulan terakhir", "A/C/F", 0.18),
-                ("5.1.h", "Kesesuaian materi promo yang terpasang di SPBU", "A/F/X", 0.10)
+                ("5.1.h", "Kessesuaian materi promo yang terpasang di SPBU", "A/F/X", 0.10)
             ]
         },
         "Sub-Elemen 5.2: Penawaran non-BBM (8)": {
@@ -203,24 +227,6 @@ CHECKLIST_DATA = {
         }
     }
 }
-
-def parse_item(item):
-    code = item[0]
-    question = item[1]
-    valid_options = item[2]
-    weight = item[3] if len(item) > 3 and isinstance(item[3], (int, float)) else 1.00
-    alert_label = ""
-    for elem in item[3:]:
-        if isinstance(elem, str) and elem not in ["A/F", "A/B/C/F", "A/F/X", "A/C/F", "A/C/F/X", "A-F", "A/C"]:
-            alert_label = elem
-    return code, question, valid_options, weight, alert_label
-
-def check_is_valid_option(opt, valid_options):
-    if valid_options == "A-F":
-        return opt in ["A", "B", "C", "D", "E", "F"]
-    else:
-        valid_list = [v.strip() for v in valid_options.split("/")]
-        return opt in valid_list
 
 if 'answers' not in st.session_state:
     st.session_state.answers = {}
