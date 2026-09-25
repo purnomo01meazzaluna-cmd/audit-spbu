@@ -69,7 +69,7 @@ CHECKLIST_DATA = {
                 ("2.2.j", "Berat Jenis (densitas) Bio Solar/Solar diukur dengan benar", "A/F/X", 1.00),
                 ("2.2.k", "Berat Jenis (densitas) Pertamina Dex diukur dengan benar", "A/F/X", 1.00),
                 ("2.2.l", "Berat Jenis (densitas) Dexlite diukur dengan benar", "A/F/X", 1.00),
-                ("2.2.m", "Volume BBM yang dikeluarkan dari nozzle akurat", "A/B/C/F", 0.60, "UJI PETIK"),
+                ("2.2.m", "Volume BBM yang dikeluarkan dari nozzle akurat", "A/B/C/F", 5.90, "UJI PETIK"),
                 ("2.2.n", "Catatan stok harian disimpan dan selalu di-update", "A/C/F", 1.00),
                 ("2.2.o", "Catatan kualitas harian dan Pemeriksaan Visual tersedia", "A/C/F", 1.00),
                 ("2.2.p", "Tanda terima (Surat Pengantar Pengiriman/LO) diarsipkan", "A/F", 1.00),
