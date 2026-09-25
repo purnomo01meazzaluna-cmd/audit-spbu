@@ -23,26 +23,26 @@ CHECKLIST_DATA = {
         "Sub-Elemen 1.1. Kebersihan dan Penampilan (10)": {
             "1.1.1 Seragam (5)": [
                 ("1.1.1.a", "Seluruh operator memakai seragam sesuai standar Pertamina (rancangan serupa, dikancing, baju, celana, sepatu safety warna hitam dan kantong uang minimum 1 tiap pulau pompa)", "A/F", 1.25),
-                ("1.1.1.b", "Nama operator dan nomor SPBU tertera dengan jelas", "A/F", 1.25),
-                ("1.1.1.c", "Seragam dalam keadaan bersih dan berkancing", "A/F", 1.25),
-                ("1.1.1.d", "Operator tidak membawa telepon genggam saat bertugas", "A/F", 1.25, "HP"),
+                ("1.1.1.b", "Nama operator dan nomor SPBU tertera dan jelas terbaca", "A/F", 1.25),
+                ("1.1.1.c", "Seragam dalam keadaaan bersih dan berkondisi baik", "A-F", 1.25),
+                ("1.1.1.d", "Operator tidak membawa telepon genggam (HP) di area pulau pompa selama bertugas", "A/F", 1.25, "HP"),
             ],
             "1.1.2 Penampilan & Pemberian Hak (5)": [
-                ("1.1.2.a", "Seluruh Operator berpenampilan rapi (operasi standar)", "A/F", 1.50),
-                ("1.1.2.b", "Seluruh Operator menerima upah sesuai atau di atas UMK", "A/B/C/F", 2.00),
-                ("1.1.2.c", "Pekerja mendapat bagian sesuai haknya dan transparan", "A/F/X", 1.50),
+                ("1.1.2.a", "Seluruh Operator berpenampilan rapi (operator pria berambut pendek dan disisir rapi, yang berkumis dan berjanggut tipis atau dicukur bersih, untuk wanita; rambut diikat apabila lebih panjang dari bahu, seluruh petugas berkuku pendek)", "A/F", 1.50),
+                ("1.1.2.b", "Seluruh operator menerima upah sesuai aturan Upah Minimum dan mendapatkan benefit jaminan kesehatan dan ketenagakerjaan", "A/B/C/F", 2.00),
+                ("1.1.2.c", "Pekerja mendapat bagian sesuai haknya dari Program Reward PT Pertamina Patra Niaga", "A/F/X", 1.50),
             ]
         },
         "Sub-Elemen 1.2 Prosedur Pelayanan (20)": {
             "1.2 Prosedur Pelayanan": [
-                ("1.2.a", "Pelanggan disambut dengan sopan serta salam 3S", "A/C/F", 2.00, "SALAM"),
-                ("1.2.b", "Operator mengingatkan & memastikan mesin nol sebelum isi", "A/F", 3.00),
-                ("1.2.c", "Setelah pilihan BBM ditetapkan, pelanggan diminta melihat layar", "A/C/F/X", 3.00, "NOL"),
-                ("1.2.d", "Pengisian BBM dilakukan secara hati-hati dan aman", "A/F/X", 3.00),
-                ("1.2.e", "Operator menawarkan pembayaran menggunakan nontunai", "A/F", 2.50),
-                ("1.2.f", "Operator mengkonfirmasi harga total dan jumlah liter", "A/F", 2.50),
-                ("1.2.g", "Operator menyerahkan kuitansi/Struk dan mengucapkan terima kasih", "A/F", 2.00),
-                ("1.2.h", "Operator mengucapkan terima kasih kepada pelanggan", "A/C/F", 1.00, "TRIMS"),
+                ("1.2.a", "Pelanggan disambut dengan sopan serta salam (Selamat pagi, siang, sore, malam), ditawarkan produk JBU Top Tier yang tersedia di pulau pompa dan ditanya jenis BBM yang dibutuhkan", "A/C/F", 2.00, "SALAM"),
+                ("1.2.b", "Operator mengingatkan & memastikan mesin kendaraan konsumen dalam keadaan mati saat pengisian BBM serta memasang stick cone di depan kendaraan konsumen (khusus roda 4)", "A/F", 3.00),
+                ("1.2.c", "Setelah pilihan BBM ditetapkan, pelanggan diperlihatkan bahwa penunjuk angka meter dimulai dari angka ’nol’ (X untuk SPBU Self Service)", "A/C/F/X", 3.00, "NOL"),
+                ("1.2.d", "Pengisian BBM dilakukan secara hati-hati untuk mencegah tumpahnya BBM yang bisa merusak kendaraan (X untuk SPBU Self Service)", "A/F/X", 3.00),
+                ("1.2.e", "Operator menawarkan pembayaran menggunakan aplikasi MyPertamina (khusus untuk pelanggan roda empat atau lebih)", "A/F", 2.50),
+                ("1.2.f", "Operator mengkonfirmasi harga total dan jumlah uang yang diterima kepada pelanggan", "A-F", 2.50),
+                ("1.2.g", "Operator menyerahkan kuitansi/Struk dan memberitahukan jumlah uang kembalian/Self Service : Kasir memberikan uang kembalian sesuai Nota (X untuk SPBU Self Service)", "A-F/X", 2.00),
+                ("1.2.h", "Operator mengucapkan terima kasih kepada pelanggan atas kunjungannya", "A/C/F", 1.00, "TRIMS"),
                 ("1.2.i", "Tersedia informasi Call Center Layanan Pelanggan", "A/F", 1.00)
             ]
         }
@@ -50,9 +50,9 @@ CHECKLIST_DATA = {
     "Elemen 2: Exact Quality & Quantity (30)": {
         "Sub-Elemen 2.1: Peralatan (7)": {
             "2.1 Peralatan": [
-                ("2.1.a", "Dispenser Unit disegel dan disertifikasi oleh instansi berwenang", "A/F", 2.50),
-                ("2.1.b", "SPBU memperbaharui secara berkala catatan tera/tera ulang", "A/F", 2.50),
-                ("2.1.c", "Seluruh peralatan Q&Q tersedia dan dalam kondisi baik", "A/F", 2.00)
+                ("2.1.a", "Dispenser Unit disegel dan disertifikasi oleh Dinas Metrologi (masa kalibrasi berlaku, segel pada dispenser unit dan sertifikat tersedia)", "A/F", 2.50),
+                ("2.1.b", "SPBU memperbaharui secara berkala catatan Totalizer Dispenser Unit BBM  yang terdapat di P-Insyst (Jika SPBU belum terdigitalisasi maka diperbolehkan menggunakan catatan manual)", "A/F", 2.50),
+                ("2.1.c", "Seluruh peralatan Q&Q tersedia dan dalam kondisi baik:  Alas/tatakan Bejana Ukur, Waterpas, Tongkat Pengukur (Dip Stick),  Bejana Ukur volume 20 liter, Pasta Minyak, Pasta Air, Gelas Ukur/Tabung kaca (1,000 ml),  Hidrometer (berukuran 0.700-0.750 atau 0.750-0.800 atau 0.700-0.800 untuk BBM Bensin dan/atau 0.800-0.850 atau 0.850-0.900 atau 0.800-0.900 untuk BBM Solar dengan akurasi 0.001), Thermometer (dengan skala terkecil  ≤ 0,5 ºC, dan Tabel ASTM 53 dengan interval suhu 0.5 ºC) ", "A/F", 2.00)
             ]
         },
         "Sub-Elemen 2.2 Prosedur Monitoring (23)": {
@@ -219,6 +219,7 @@ def check_is_valid_option(opt, valid_options):
     if valid_options == "A-F":
         return opt in ["A", "B", "C", "D", "E", "F"]
     else:
+        # Contoh: "A/F" -> ["A", "F"]
         valid_list = [v.strip() for v in valid_options.split("/")]
         return opt in valid_list
 
@@ -270,9 +271,9 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
 
 if has_critical_failure:
     alert_list_str = ", ".join(failed_alert_names)
-    st.error(f"🚨 **STATUS AUDIT: GAGAL (NOT QUALIFIED)** — Terdapat temuan gagal (Nilai F) pada item ber-Alert: **[{alert_list_str}]**! Pelanggaran ini menggagalkan seluruh elemen penilaian audit.")
+    st.error(f"🚨 **STATUS AUDIT: GAGAL (NOT CERTIFIED)** — NOT CERTIFIED  pada item ber-Alert: **[{alert_list_str}]**! Pelanggaran ini menggagalkan seluruh elemen penilaian audit.")
 else:
-    st.success("✅ **STATUS AUDIT: NORMAL / AMAN** (Tidak ada temuan gagal pada item ber-Alert).")
+    st.success("✅ **STATUS AUDIT: CERTIFIED** (CERTIFIED).")
 
 for elemen_name, sub_elements in CHECKLIST_DATA.items():
     with st.expander(f"📁 **{elemen_name}**", expanded=False):
@@ -288,6 +289,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                         
                         selected_opt = st.session_state.answers.get(code, None)
                         
+                        # Hitung skor: Jika opsi valid, multiplier * weight. Jika tidak valid, skor = 0
                         is_valid = check_is_valid_option(selected_opt, valid_options) if selected_opt else False
                         multiplier = WEIGHT_MAP.get(selected_opt, 0.00) if (selected_opt and is_valid) else 0.00
                         final_score = multiplier * weight
@@ -308,7 +310,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                             st.markdown(f"<span style='color:red;'>⚠️ Pilihan **[{selected_opt}]** tidak valid untuk item ini (Validasi: {valid_options}). Score diset 0!</span>", unsafe_allow_html=True)
                         
                         if alert_label and selected_opt == "F" and is_valid:
-                            st.markdown(f"<span style='color:red;'>🚨 ALERT KRITIKAL [{alert_label}] bernilai F (Menggagalkan Kelulusan)!</span>", unsafe_allow_html=True)
+                            st.markdown(f"<span style='color:red;'>🚨 ALERT NOT CERTIFIED [{alert_label}] bernilai F (Menggagalkan Kelulusan)!</span>", unsafe_allow_html=True)
 
                         cols = st.columns(7)
                         for idx, opt in enumerate(all_choices):
@@ -316,6 +318,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                             is_selected = selected_opt == opt
                             is_opt_valid = check_is_valid_option(opt, valid_options)
                             
+                            # Tampilkan merah jika dipilih tapi tidak valid
                             if is_selected and not is_opt_valid:
                                 button_label = f"🔴 {opt} (Invalid)"
                             elif is_selected:
@@ -363,7 +366,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                         st.markdown(f"<span style='color:red;'>⚠️ Pilihan **[{selected_opt}]** tidak valid untuk item ini (Validasi: {valid_options}). Score diset 0!</span>", unsafe_allow_html=True)
 
                     if alert_label and selected_opt == "F" and is_valid:
-                        st.markdown(f"<span style='color:red;'>🚨 ALERT KRITIKAL [{alert_label}] bernilai F (Menggagalkan Kelulusan)!</span>", unsafe_allow_html=True)
+                        st.markdown(f"<span style='color:red;'>🚨 ALERT NOT CIRTIFIED [{alert_label}] bernilai F (Menggagalkan Kelulusan)!</span>", unsafe_allow_html=True)
 
                     cols = st.columns(7)
                     for idx, opt in enumerate(all_choices):
@@ -412,7 +415,7 @@ def generate_full_excel():
     ws['A1'] = "LAPORAN SIMULASI AUDIT PERTAMINA WAY"
     ws['A1'].font = title_font
     
-    overall_status = f"GAGAL (NOT QUALIFIED) - Temuan Alert: {', '.join(failed_alert_names)}" if has_critical_failure else "LULUS / NORMAL"
+    overall_status = f"GAGAL (NOT CIRTIFIED) - Temuan Alert: {', '.join(failed_alert_names)}" if has_critical_failure else "LULUS / NORMAL"
 
     metadata = [
         ("Nomor SPBU", nomor_spbu),
@@ -432,7 +435,7 @@ def generate_full_excel():
         r += 1
 
     r += 1
-    headers = ["Kode", "Pertanyaan Checklist", "Pilihan", "Bobot Item", "Score (Nilai x Bobot)", "Alert", "Catatan Assesor", "Lampiran Foto/Video"]
+    headers = ["Elemen", "Checklist", "Nilai", "Bobot Nilai", "Score (Nilai x Bobot)", "Alert", "Catatan Assesor", "Eviden"]
     ws.row_dimensions[r].height = 25
     for col_idx, h in enumerate(headers, 1):
         cell = ws.cell(row=r, column=col_idx, value=h)
