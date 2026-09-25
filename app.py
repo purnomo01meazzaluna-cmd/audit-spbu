@@ -17,7 +17,7 @@ WEIGHT_MAP = {
     "X": 1.00
 }
 
-# --- FUNGSI PARSE ITEM DENGAN PARSING PRESISI (SOLUSI BUG BOBOT) ---
+# --- FUNGSI PARSE ITEM REVISI (PERBAIKAN BUG BOBOT TERTIMPA) ---
 def parse_item(item):
     code = item[0]
     question = item[1]
@@ -26,7 +26,7 @@ def parse_item(item):
     weight = 1.00
     alert_label = ""
     
-    # Memisahkan secara presisi antara Tipe Data Angka (Bobot) dan String (Alert)
+    # Memisahkan secara presisi berdasarkan tipe data (Angka -> Bobot, String -> Alert)
     for elem in item[3:]:
         if isinstance(elem, (int, float)):
             weight = float(elem)
@@ -259,6 +259,7 @@ all_choices = ["A", "B", "C", "D", "E", "F", "X"]
 has_critical_failure = False
 failed_alert_names = []
 
+# Cek Status Alert
 for elemen_name, sub_elements in CHECKLIST_DATA.items():
     for sub_name, items_dict in sub_elements.items():
         items_to_loop = []
@@ -281,6 +282,7 @@ if has_critical_failure:
 else:
     st.success("✅ **STATUS AUDIT: CERTIFIED** (CERTIFIED).")
 
+# Render UI Form Audit
 for elemen_name, sub_elements in CHECKLIST_DATA.items():
     with st.expander(f"📁 **{elemen_name}**", expanded=False):
         for sub_name, items_dict in sub_elements.items():
@@ -400,6 +402,7 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                         
                     st.write("---")
 
+# Fungsi Export Excel
 def generate_full_excel():
     wb = openpyxl.Workbook()
     ws = wb.active
