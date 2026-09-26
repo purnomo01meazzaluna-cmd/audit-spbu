@@ -29,12 +29,7 @@ CHECKLIST_DATA = {
             "1.1.1 Seragam (5)": [
                 (
                     "1.1.1.a",
-                    (
-                        "Seluruh operator memakai seragam sesuai standar"
-                        " Pertamina (rancangan serupa, dikancing, baju, celana,"
-                        " sepatu safety warna hitam dan kantong uang minimum 1"
-                        " tiap pulau pompa)"
-                    ),
+                    "Seluruh operator memakai seragam sesuai standar Pertamina (rancangan serupa, dikancing, baju, celana, sepatu safety warna hitam dan kantong uang minimum 1 tiap pulau pompa)",
                     "A/F",
                     1.25,
                 ),
@@ -52,10 +47,7 @@ CHECKLIST_DATA = {
                 ),
                 (
                     "1.1.1.d",
-                    (
-                        "Operator tidak membawa telepon genggam (HP) di area"
-                        " pulau pompa selama bertugas"
-                    ),
+                    "Operator tidak membawa telepon genggam (HP) di area pulau pompa selama bertugas",
                     "A/F",
                     1.25,
                     "HP",
@@ -64,32 +56,19 @@ CHECKLIST_DATA = {
             "1.1.2 Penampilan & Pemberian Hak (5)": [
                 (
                     "1.1.2.a",
-                    (
-                        "Seluruh Operator berpenampilan rapi (operator pria"
-                        " berambut pendek dan disisir rapi, yang berkumis dan"
-                        " berjanggut tipis atau dicukur bersih, untuk wanita;"
-                        " rambut diikat apabila lebih panjang dari bahu, seluruh"
-                        " petugas berkuku pendek)"
-                    ),
+                    "Seluruh Operator berpenampilan rapi (operator pria berambut pendek dan disisir rapi, yang berkumis dan berjanggut tipis atau dicukur bersih, untuk wanita; rambut diikat apabila lebih panjang dari bahu, seluruh petugas berkuku pendek)",
                     "A/F",
                     1.50,
                 ),
                 (
                     "1.1.2.b",
-                    (
-                        "Seluruh operator menerima upah sesuai aturan Upah"
-                        " Minimum dan mendapatkan benefit jaminan kesehatan dan"
-                        " ketenagakerjaan"
-                    ),
+                    "Seluruh operator menerima upah sesuai aturan Upah Minimum dan mendapatkan benefit jaminan kesehatan dan ketenagakerjaan",
                     "A/B/C/F",
                     2.00,
                 ),
                 (
                     "1.1.2.c",
-                    (
-                        "Pekerja mendapat bagian sesuai haknya dari Program"
-                        " Reward PT Pertamina Patra Niaga"
-                    ),
+                    "Pekerja mendapat bagian sesuai haknya dari Program Reward PT Pertamina Patra Niaga",
                     "A/F/X",
                     1.50,
                 ),
@@ -99,84 +78,51 @@ CHECKLIST_DATA = {
             "1.2 Prosedur Pelayanan": [
                 (
                     "1.2.a",
-                    (
-                        "Pelanggan disambut dengan sopan serta salam (Selamat"
-                        " pagi, siang, sore, malam), ditawarkan produk JBU Top"
-                        " Tier yang tersedia di pulau pompa dan ditanya jenis"
-                        " BBM yang dibutuhkan"
-                    ),
+                    "Pelanggan disambut dengan sopan serta salam (Selamat pagi, siang, sore, malam), ditawarkan produk JBU Top Tier yang tersedia di pulau pompa dan ditanya jenis BBM yang dibutuhkan",
                     "A/C/F",
                     2.00,
                     "SALAM",
                 ),
                 (
                     "1.2.b",
-                    (
-                        "Operator mengingatkan & memastikan mesin kendaraan"
-                        " konsumen dalam keadaan mati saat pengisian BBM serta"
-                        " memasang stick cone di depan kendaraan konsumen"
-                        " (khusus roda 4)"
-                    ),
+                    "Operator mengingatkan & memastikan mesin kendaraan konsumen dalam keadaan mati saat pengisian BBM serta memasang stick cone di depan kendaraan konsumen (khusus roda 4)",
                     "A/F",
                     3.00,
                 ),
                 (
                     "1.2.c",
-                    (
-                        "Setelah pilihan BBM ditetapkan, pelanggan"
-                        " diperlihatkan bahwa penunjuk angka meter dimulai dari"
-                        " angka ’nol’ (X untuk SPBU Self Service)"
-                    ),
+                    "Setelah pilihan BBM ditetapkan, pelanggan diperlihatkan bahwa penunjuk angka meter dimulai dari angka ’nol’ (X untuk SPBU Self Service)",
                     "A/C/F/X",
                     3.00,
                     "NOL",
                 ),
                 (
                     "1.2.d",
-                    (
-                        "Pengisian BBM dilakukan secara hati-hati untuk"
-                        " mencegah tumpahnya BBM yang bisa merusak kendaraan"
-                        " (X untuk SPBU Self Service)"
-                    ),
+                    "Pengisian BBM dilakukan secara hati-hati untuk mencegah tumpahnya BBM yang bisa merusak kendaraan (X untuk SPBU Self Service)",
                     "A/F/X",
                     3.00,
                 ),
                 (
                     "1.2.e",
-                    (
-                        "Operator menawarkan pembayaran menggunakan aplikasi"
-                        " MyPertamina (khusus untuk pelanggan roda empat atau"
-                        " lebih)"
-                    ),
+                    "Operator menawarkan pembayaran menggunakan aplikasi MyPertamina (khusus untuk pelanggan roda empat atau lebih)",
                     "A/F",
                     2.50,
                 ),
                 (
                     "1.2.f",
-                    (
-                        "Operator mengkonfirmasi harga total dan jumlah uang"
-                        " yang diterima kepada pelanggan"
-                    ),
+                    "Operator mengkonfirmasi harga total dan jumlah uang yang diterima kepada pelanggan",
                     "A-F",
                     2.50,
                 ),
                 (
                     "1.2.g",
-                    (
-                        "Operator menyerahkan kuitansi/Struk dan memberitahukan"
-                        " jumlah uang kembalian/Self Service : Kasir memberikan"
-                        " uang kembalian sesuai Nota (X untuk SPBU Self"
-                        " Service)"
-                    ),
-                    "A-F/X",
+                    "Operator menyerahkan kuitansi/Struk dan memberitahukan jumlah uang kembalian/Self Service : Kasir memberikan uang kembalian sesuai Nota (X untuk SPBU Self Service)",
+                    "A/B/C/D/E/F/X",
                     2.00,
                 ),
                 (
                     "1.2.h",
-                    (
-                        "Operator mengucapkan terima kasih kepada pelanggan"
-                        " atas kunjungannya"
-                    ),
+                    "Operator mengucapkan terima kasih kepada pelanggan atas kunjungannya",
                     "A/C/F",
                     1.00,
                     "TRIMS",
@@ -195,39 +141,19 @@ CHECKLIST_DATA = {
             "2.1 Peralatan": [
                 (
                     "2.1.a",
-                    (
-                        "Dispenser Unit disegel dan disertifikasi oleh Dinas"
-                        " Metrologi (masa kalibrasi berlaku, segel pada"
-                        " dispenser unit dan sertifikat tersedia)"
-                    ),
+                    "Dispenser Unit disegel dan disertifikasi oleh Dinas Metrologi (masa kalibrasi berlaku, segel pada dispenser unit dan sertifikat tersedia)",
                     "A/F",
                     2.50,
                 ),
                 (
                     "2.1.b",
-                    (
-                        "SPBU memperbaharui secara berkala catatan Totalizer"
-                        " Dispenser Unit BBM yang terdapat di P-Insyst (Jika"
-                        " SPBU belum terdigitalisasi maka diperbolehkan"
-                        " menggunakan catatan manual)"
-                    ),
+                    "SPBU memperbaharui secara berkala catatan Totalizer Dispenser Unit BBM yang terdapat di P-Insyst (Jika SPBU belum terdigitalisasi maka diperbolehkan menggunakan catatan manual)",
                     "A/F",
                     2.50,
                 ),
                 (
                     "2.1.c",
-                    (
-                        "Seluruh peralatan Q&Q tersedia dan dalam kondisi baik:"
-                        " Alas/tatakan Bejana Ukur, Waterpas, Tongkat Pengukur"
-                        " (Dip Stick), Bejana Ukur volume 20 liter, Pasta"
-                        " Minyak, Pasta Air, Gelas Ukur/Tabung kaca (1,000 ml),"
-                        " Hidrometer (berukuran 0.700-0.750 atau 0.750-0.800"
-                        " atau 0.700-0.800 untuk BBM Bensin dan/atau"
-                        " 0.800-0.850 atau 0.850-0.900 atau 0.800-0.900 untuk"
-                        " BBM Solar dengan akurasi 0.001), Thermometer (dengan"
-                        " skala terkecil ≤ 0,5 ºC, dan Tabel ASTM 53 dengan"
-                        " interval suhu 0.5 ºC)"
-                    ),
+                    "Seluruh peralatan Q&Q tersedia dan dalam kondisi baik",
                     "A/F",
                     2.00,
                 ),
@@ -237,34 +163,26 @@ CHECKLIST_DATA = {
             "2.2 Monitoring": [
                 (
                     "2.2.a",
-                    (
-                        "Tidak ditemukan tanda-tanda manipulasi pada dispenser"
-                        " unit : segel-segel Dispenser, flow meter, dan digital"
-                        " LED yang dapat mempengaruhi ketidakwajaran takaran"
-                    ),
+                    "Tidak ditemukan tanda-tanda manipulasi pada dispenser unit : segel-segel Dispenser, flow meter, dan digital LED yang dapat mempengaruhi ketidakwajaran takaran",
                     "A/F",
                     1.50,
                     "DU DISPENSER",
                 ),
                 (
                     "2.2.b",
-                    (
-                        "Sampel 2 (dua) pengiriman terakhir dari tiap produk"
-                    ),
+                    "Sampel 2 (dua) pengiriman terakhir dari tiap jenis BBM disimpan dalam kontainer aluminium (1 x 1 liter untuk tiap kompartemen)",
                     "A/F",
                     0.70,
                 ),
                 (
                     "2.2.c",
-                    (
-                        "Kaleng Sampel disegel dan Label Sampel terisi lengkap"
-                    ),
+                    "Kaleng Sampel disegel dan Label Sampel terisi lengkap",
                     "A/F",
                     0.60,
                 ),
                 (
                     "2.2.d",
-                    "Tersedia Display sampel BBM yang sesuai dan bersih",
+                    "Tersedia Display sampel BBM yang sesuai standar Pertamina",
                     "A/F",
                     0.25,
                 ),
@@ -276,66 +194,51 @@ CHECKLIST_DATA = {
                 ),
                 (
                     "2.2.f",
-                    (
-                        "Berat Jenis (densitas) Pertalite (Oktan 90) diukur"
-                        " dengan benar"
-                    ),
+                    "Berat Jenis (densitas) Pertalite (Oktan 90) diukur dengan benar",
                     "A/F/X",
-                    1.00,
+                    0.80,
                 ),
                 (
                     "2.2.g",
-                    (
-                        "Berat Jenis (densitas) Pertamax (Oktan 92) diukur"
-                        " dengan benar"
-                    ),
+                    "Berat Jenis (densitas) Pertamax (Oktan 92) diukur dengan benar",
                     "A/F/X",
-                    1.00,
+                    0.80,
                 ),
                 (
                     "2.2.h",
-                    (
-                        "Berat Jenis (densitas) Pertamax Green (Oktan 95)"
-                        " diukur dengan benar"
-                    ),
+                    "Berat Jenis (densitas) Pertamax Green (Oktan 95) diukur dengan benar",
                     "A/F/X",
-                    1.00,
+                    0.80,
                 ),
                 (
                     "2.2.i",
-                    (
-                        "Berat Jenis (densitas) Pertamax Turbo (Oktan 98)"
-                        " diukur dengan benar"
-                    ),
+                    "Berat Jenis (densitas) Pertamax Turbo (Oktan 98) diukur dengan benar",
                     "A/F/X",
-                    1.00,
+                    0.80,
                 ),
                 (
                     "2.2.j",
-                    (
-                        "Berat Jenis (densitas) Bio Solar/Solar diukur dengan"
-                        " benar"
-                    ),
+                    "Berat Jenis (densitas) Bio Solar/Solar diukur dengan benar",
                     "A/F/X",
-                    1.00,
+                    0.80,
                 ),
                 (
                     "2.2.k",
                     "Berat Jenis (densitas) Pertamina Dex diukur dengan benar",
                     "A/F/X",
-                    1.00,
+                    0.85,
                 ),
                 (
                     "2.2.l",
                     "Berat Jenis (densitas) Dexlite diukur dengan benar",
                     "A/F/X",
-                    1.00,
+                    0.85,
                 ),
                 (
                     "2.2.m",
                     "Volume BBM yang dikeluarkan dari nozzle akurat",
                     "A/B/C/F",
-                    9.50,
+                    9.25,
                     "UJI PETIK",
                 ),
                 (
@@ -346,19 +249,13 @@ CHECKLIST_DATA = {
                 ),
                 (
                     "2.2.o",
-                    (
-                        "Catatan kualitas harian dan Pemeriksaan Visual"
-                        " tersedia"
-                    ),
+                    "Catatan kualitas harian dan Pemeriksaan Visual tersedia",
                     "A/C/F",
                     1.00,
                 ),
                 (
                     "2.2.p",
-                    (
-                        "Tanda terima (Surat Pengantar Pengiriman/LO)"
-                        " diarsipkan"
-                    ),
+                    "Tanda terima (Surat Pengantar Pengiriman/LO) diarsipkan",
                     "A/F",
                     1.00,
                 ),
@@ -378,14 +275,11 @@ CHECKLIST_DATA = {
                     "3.1.1.a",
                     "Driveway/ Pelataran pengisian BBM dalam kondisi bersih",
                     "A-F",
-                    0.50,
+                    1.00,
                 ),
                 (
                     "3.1.1.b",
-                    (
-                        "Pulau pompa dan kolom-kolom kanopi dalam kondisi"
-                        " bersih"
-                    ),
+                    "Pulau pompa dan kolom-kolom kanopi dalam kondisi bersih",
                     "A-F",
                     0.75,
                 ),
@@ -398,10 +292,7 @@ CHECKLIST_DATA = {
                 ("3.1.1.d", "SPBU tersedia Oil Spill Kit", "A/F", 0.20),
                 (
                     "3.1.1.e",
-                    (
-                        "Totem/Signboard, Lisplang, Kanopi, Rambu bersih tanpa"
-                        " rusak"
-                    ),
+                    "Totem/Signboard, Lisplang, Kanopi, Rambu bersih tanpa rusak",
                     "A-F",
                     0.50,
                 ),
@@ -415,7 +306,7 @@ CHECKLIST_DATA = {
                     "3.1.1.g",
                     "Seluruh lampu halaman SPBU berfungsi dengan baik",
                     "A-F",
-                    0.20,
+                    0.30,
                 ),
                 (
                     "3.1.1.h",
@@ -425,19 +316,13 @@ CHECKLIST_DATA = {
                 ),
                 (
                     "3.1.1.i",
-                    (
-                        "Pelataran/tempat pembongkaran BBM dalam kondisi"
-                        " bersih"
-                    ),
+                    "Pelataran/tempat pembongkaran BBM dalam kondisi bersih",
                     "A-F",
                     0.20,
                 ),
                 (
                     "3.1.1.j",
-                    (
-                        "Tutup lubang pengisian BBM (Oil Sump) dalam kondisi"
-                        " bersih"
-                    ),
+                    "Tutup lubang pengisian BBM (Oil Sump) dalam kondisi bersih",
                     "A-F",
                     0.30,
                 ),
@@ -445,7 +330,7 @@ CHECKLIST_DATA = {
                     "3.1.1.k",
                     "Lubang pengisian BBM (Oil Sump) bersih dari air/sampah",
                     "A/C/F",
-                    0.40,
+                    0.45,
                 ),
                 (
                     "3.1.1.l",
@@ -453,12 +338,12 @@ CHECKLIST_DATA = {
                     "A/F",
                     0.30,
                 ),
-                ("3.1.1.m", "Taman dalam kondisi bersih", "A/F/X", 0.20),
+                ("3.1.1.m", "Taman dalam kondisi bersih", "A/F/X", 0.60),
                 (
                     "3.1.1.n",
                     "Lampu penerangan taman berfungsi dengan baik",
                     "A/F/X",
-                    0.20,
+                    0.60,
                 ),
             ],
             "3.1.2 Toilet (4.5)": [
@@ -528,10 +413,7 @@ CHECKLIST_DATA = {
             "3.1.4 Aspek HSSE (2.5)": [
                 (
                     "3.1.4.a",
-                    (
-                        "Tersedia alat pemadam api ringan (APAR) dengan"
-                        " jumlah sesuai"
-                    ),
+                    "Tersedia alat pemadam api ringan (APAR) dengan jumlah sesuai",
                     "A/F",
                     0.15,
                     "APAR",
@@ -655,66 +537,66 @@ CHECKLIST_DATA = {
                     "3.1.4.u",
                     "Terdapat minimal 1 (satu) orang petugas SIA/F",
                     "A/F",
-                    0.15,
+                    0.30,
                     "SAFETYMAN",
                 ),
             ],
         },
-        "Sub-Elemen 3.2: Pemeliharaan berkala atas DU": {
+        "Sub-Elemen 3.2: Pemeliharaan berkala atas DU (5.5)": {
             "3.2 Pemeliharaan DU": [
                 (
                     "3.2.a",
                     "Catatan pemeliharaan Fasilitas SPBU (house keeping)",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "3.2.b",
                     "Catatan pemeliharaan DU (Dispenser Unit) berkala",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "3.2.c",
                     "Dispenser Unit BBM tidak tampak rusak fisik/bocor",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "3.2.d",
                     "Layar penunjuk (LCD Dispenser) terbaca dengan jelas",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "3.2.e",
                     "Tidak ada kebocoran pada sambungan pipa/dispenser",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "3.2.f",
                     "Semua koneksi listrik di dalam Dispenser Unit aman",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "3.2.g",
                     "Selang pengisian BBM tidak bocor atau terkelupas",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "3.2.h",
                     "Generator terpelihara secara baik dan tidak berisik",
                     "A/F",
-                    0.50,
+                    0.70,
                 ),
                 (
                     "3.2.i",
                     "Pipa sirkulasi udara tangki timbun (Vent Pipe) baik",
                     "A/F/X",
-                    0.50,
+                    0.60,
                 ),
             ]
         },
@@ -770,7 +652,7 @@ CHECKLIST_DATA = {
                     "4.3.a",
                     "EDC Digitalisasi dan/atau Tablet MyPertamina tersedia",
                     "A/B/C/F",
-                    0.50,
+                    0.60,
                     "EDC",
                 ),
                 (
@@ -789,33 +671,33 @@ CHECKLIST_DATA = {
                     "4.3.d",
                     "SPBU menggunakan ATG & POS sesuai ketentuan",
                     "A/F",
-                    0.50,
+                    0.60,
                 ),
                 (
                     "4.3.e",
                     "SPBU dilengkapi CCTV di setiap pulau pompa",
                     "A/F",
-                    0.50,
+                    0.60,
                     "CCTV",
                 ),
                 (
                     "4.3.f",
                     "Jalur Red Carpet Fast Track (minimal 1 jalur)",
                     "A/C/F",
-                    0.25,
+                    0.40,
                     "RED CARPET",
                 ),
                 (
                     "4.3.g",
                     "Terdapat Dedicated Operator dengan Rompi Khusus",
                     "A/F",
-                    0.25,
+                    0.40,
                 ),
                 (
                     "4.3.h",
                     "Posisi jalur Red Carpet Fast Track mudah diakses",
                     "A/F",
-                    0.25,
+                    0.40,
                 ),
             ]
         },
@@ -830,19 +712,16 @@ CHECKLIST_DATA = {
                 ("5.1.e", "Tersedianya produk Dexlite", "A/F", 0.20),
                 (
                     "5.1.f",
-                    (
-                        "Tersedianya produk JBU minimum 1 jenis yaitu Solar ke"
-                        " atas"
-                    ),
+                    "Tersedianya produk JBU minimum 1 jenis yaitu Solar ke atas",
                     "A/C/F",
-                    0.21,
+                    0.40,
                     "JBU",
                 ),
                 (
                     "5.1.g",
                     "Realisasi penebusan JBU per-2 (dua) bulan terakhir",
                     "A/C/F",
-                    0.18,
+                    0.20,
                 ),
                 (
                     "5.1.h",
@@ -858,41 +737,41 @@ CHECKLIST_DATA = {
                     "5.2.a",
                     "SPBU tersedia NFR Brand Bright yang sesuai",
                     "A/B/F",
-                    1.10,
+                    1.00,
                 ),
                 (
                     "5.2.b",
                     "SPBU tersedia NFR Internasional",
                     "A/B/F",
-                    0.95,
+                    0.90,
                     "NFR INT",
                 ),
                 (
                     "5.2.c",
                     "SPBU tersedia fasilitas Energi Baru Terbarukan (EBT)",
                     "A/B/F",
-                    1.15,
+                    1.00,
                 ),
-                ("5.2.d", "SPBU tersedia NFR Nasional", "A/B/F", 1.10),
+                ("5.2.d", "SPBU tersedia NFR Nasional", "A/B/F", 1.00),
                 (
                     "5.2.e",
                     "SPBU tersedia NFR Lokal dan berkontrak legal",
                     "A/B/F",
-                    0.95,
+                    0.90,
                     "NFR LKL",
                 ),
                 (
                     "5.2.f",
                     "Seluruh NFR di SPBU memiliki izin Prinsip/Kontrak",
                     "A/F",
-                    0.85,
+                    0.80,
                     "Izin Prinsip",
                 ),
                 (
                     "5.2.g",
                     "SPBU Excellent dengan Opsi A: 1. Tersedia Bright Store",
                     "A/B/F",
-                    1.50,
+                    1.00,
                     "NFR",
                 ),
                 (
@@ -995,6 +874,9 @@ for elemen_name, sub_elements in CHECKLIST_DATA.items():
                 has_critical_failure = True
                 failed_alert_names.append(f"{code} ({alert_label})")
 
+total_max_score = round(total_max_score, 2)
+total_achieved_score = round(total_achieved_score, 2)
+
 # --- STATUS DASHBOARD METRICS ---
 score_percentage = (total_achieved_score / total_max_score * 100) if total_max_score > 0 else 0.0
 
@@ -1041,7 +923,6 @@ def render_audit_item(raw_item):
         else:
             st.markdown("**Score:** `-`")
 
-    # Fast & responsive option selection widget
     default_idx = allowed_opts.index(selected_opt) if selected_opt in allowed_opts else None
     
     chosen_opt = st.radio(
@@ -1052,11 +933,9 @@ def render_audit_item(raw_item):
         horizontal=True,
         label_visibility="collapsed"
     )
-    if chosen_opt != selected_opt:
-        st.session_state.answers[code] = chosen_opt
-        st.rerun()
+    st.session_state.answers[code] = chosen_opt
 
-    if alert_label and selected_opt == "F" and is_valid:
+    if alert_label and chosen_opt == "F" and is_valid:
         st.error(f"🚨 ALERT NOT CERTIFIED [{alert_label}] bernilai F (Menggagalkan Kelulusan)!")
 
     # Notes & Media input
@@ -1106,6 +985,9 @@ def generate_full_excel():
     title_font = Font(name="Calibri", size=14, bold=True, color="1F4E78")
     regular_font = Font(name="Calibri", size=11)
     bold_font = Font(name="Calibri", size=11, bold=True)
+    align_center = Alignment(horizontal="center", vertical="center", wrap_text=True)
+    align_left = Alignment(horizontal="left", vertical="center", wrap_text=True)
+    
     thin_border = Border(
         left=Side(style='thin', color='D9D9D9'), right=Side(style='thin', color='D9D9D9'),
         top=Side(style='thin', color='D9D9D9'), bottom=Side(style='thin', color='D9D9D9')
@@ -1141,7 +1023,7 @@ def generate_full_excel():
         cell = ws.cell(row=r, column=col_idx, value=h)
         cell.fill = header_fill
         cell.font = header_font
-        cell.alignment = Alignment(horizontal="center", vertical="center")
+        cell.alignment = align_center
         cell.border = thin_border
 
     r += 1
@@ -1156,8 +1038,7 @@ def generate_full_excel():
 
             for raw_item in items_to_loop:
                 code, question, valid_options, weight, alert_label = parse_item(raw_item)
-                if not alert_label:
-                    alert_label = "-"
+                alert_text = alert_label if alert_label else "-"
 
                 ws.row_dimensions[r].height = 65
 
@@ -1166,16 +1047,25 @@ def generate_full_excel():
                 multiplier = WEIGHT_MAP.get(sel_opt, 0.00) if is_valid else 0.00
                 final_score = multiplier * weight
 
-                ws.cell(row=r, column=1, value=code).border = thin_border
-                ws.cell(row=r, column=2, value=question).border = thin_border
-                ws.cell(row=r, column=3, value=sel_opt).border = thin_border
-                ws.cell(row=r, column=4, value=weight).border = thin_border
-                ws.cell(row=r, column=5, value=final_score).border = thin_border
-                ws.cell(row=r, column=6, value=alert_label).border = thin_border
-                ws.cell(row=r, column=7, value=st.session_state.notes.get(code, "")).border = thin_border
+                row_data = [
+                    (1, code, align_center),
+                    (2, question, align_left),
+                    (3, sel_opt, align_center),
+                    (4, weight, align_center),
+                    (5, final_score, align_center),
+                    (6, alert_text, align_center),
+                    (7, st.session_state.notes.get(code, ""), align_left)
+                ]
+
+                for col_idx, val, align in row_data:
+                    cell = ws.cell(row=r, column=col_idx, value=val)
+                    cell.border = thin_border
+                    cell.font = regular_font
+                    cell.alignment = align
 
                 cell_media = ws.cell(row=r, column=8)
                 cell_media.border = thin_border
+                cell_media.alignment = align_center
 
                 if code in st.session_state.media:
                     file_name = st.session_state.media[code]
@@ -1195,7 +1085,7 @@ def generate_full_excel():
 
                 r += 1
 
-    col_widths = {'A': 12, 'B': 45, 'C': 10, 'D': 10, 'E': 12, 'F': 15, 'G': 30, 'H': 25}
+    col_widths = {'A': 12, 'B': 45, 'C': 10, 'D': 10, 'E': 12, 'F': 18, 'G': 30, 'H': 25}
     for col, width in col_widths.items():
         ws.column_dimensions[col].width = width
 
